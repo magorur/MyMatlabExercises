@@ -1,0 +1,9 @@
+clear;clc;
+A=-5*pi/3;
+B=pi/6;
+M=-2;
+N=13;
+x=linspace(A,B,50);
+y=x;
+z=M.*sin(x.^2)+N.*sin(y.^2);
+max(z)-min(z)
